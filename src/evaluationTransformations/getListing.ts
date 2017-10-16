@@ -22,7 +22,7 @@ export type Listing = {
   infoCount: number;
 };
 
-export default (rootEvaluation: NodeEvaluation): Listing => {
+export const getListing = (rootEvaluation: NodeEvaluation): Listing => {
   const items = composeLeft(
     flatTree,
     groupByType,

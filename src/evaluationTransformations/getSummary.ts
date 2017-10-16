@@ -15,7 +15,7 @@ import {
   ensureTypeGroups
 } from './transformations';
 
-export default (rootEvaluation: NodeEvaluation): Group<Group<Item>> =>
+export const getSummary = (rootEvaluation: NodeEvaluation): Group<Group<Item>> =>
   composeLeft(
     flatTree,
     groupByEvaluation,
