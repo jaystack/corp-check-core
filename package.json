@@ -1,0 +1,20 @@
+{
+  "name": "corp-check-core",
+  "version": "1.0.0",
+  "description": "Common utils and types for corp-check",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaystack/corp-check-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaystack/corp-check-core/issues"
+  },
+  "homepage": "https://github.com/jaystack/corp-check-core#readme"
+}
