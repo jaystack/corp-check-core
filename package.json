@@ -15,7 +15,8 @@
     "url": "git+https://github.com/jaystack/corp-check-core.git"
   },
   "files": [
-    "lib"
+    "lib",
+    "LICENSE.md"
   ],
   "keywords": [],
   "author": "",
