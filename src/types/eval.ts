@@ -19,11 +19,6 @@ export type Evaluation = {
   logs: Log[];
 };
 
-//export type Evaluator = ({ data, rule }: { data: Data; rule: any }) => Promise<Evaluation>;
-export type Evaluator<Rule = any> = (
-  { node, packageMeta, rule }: { node: Node; packageMeta: PackageMeta; rule: Rule; depth: number }
-) => Evaluation;
-
 export enum Qualification {
   RECOMMENDED = 'RECOMMENDED',
   ACCEPTED = 'ACCEPTED',
