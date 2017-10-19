@@ -78,6 +78,7 @@ export type Meta = {
 export type Info = {
   tree: Node;
   meta: Meta;
+  unknownPackages: string[];
 };
 
 export type Result = { data: Info } | { error: string };
