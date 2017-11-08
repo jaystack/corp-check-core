@@ -1,6 +1,6 @@
 {
   "name": "corp-check-core",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Common utils and types for corp-check",
   "main": "lib/index",
   "typings": "lib/index",
