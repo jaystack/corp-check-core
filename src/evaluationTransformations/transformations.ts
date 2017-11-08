@@ -1,5 +1,5 @@
 import { NodeEvaluation, LogType } from '../types';
-import reduceTree from './reduceTree';
+import { reduceTree } from './reduceTree';
 
 export type Group<T> = {
   name: string;
