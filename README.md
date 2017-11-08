@@ -1,2 +1,2 @@
 # corp-check-core
-Common utils and types for corp-check
+Common utils and types for Corp-Check
