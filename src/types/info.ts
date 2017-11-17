@@ -68,16 +68,13 @@ export type NpmScores = {
 };
 
 export type PackageMeta = {
+  name: string;
   npmScores: NpmScores;
-};
-
-export type Meta = {
-  [packageName: string]: PackageMeta;
 };
 
 export type Info = {
   tree: Node;
-  meta: Meta;
+  meta: PackageMeta[];
   unknownPackages: string[];
 };
 
