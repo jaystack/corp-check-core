@@ -78,4 +78,4 @@ export type Info = {
   unknownPackages: string[];
 };
 
-export type Result = { data: Info } | { error: string };
+export type Result = { data: Info } | { error: string; message?: string };
